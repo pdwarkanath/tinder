@@ -1,10 +1,8 @@
 import pyautogui
+import time
 # x = pyautogui.position()
 x = (930, 597)
-import time
-try:
-	while True:
-		time.sleep(0.2)
-		pyautogui.click(x)
-except KeyboardInterrupt:
-	pass
+
+for i in range(100):
+	time.sleep(0.2)
+	pyautogui.click(x)
