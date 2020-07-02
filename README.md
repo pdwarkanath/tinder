@@ -1,4 +1,4 @@
-# tinder
+# Swipe right on all
 Based on this https://np.reddit.com/r/Python/comments/7kpme8/automate_the_boring_stuff_with_python_tinder/
 
 ## How to run
@@ -19,7 +19,7 @@ pip install pyautogui
 Open tinder in web browser and login https://tinder.com/
 
 4. Run script
-Resize terminal window so that like button is visible. Move mouse there and run the script (see video for illustration)
+Resize terminal window so that like button (heart symbol aka right swipe) is visible. Move mouse pointer there and run the script (see video for illustration)
 
 ```
 python tinder.py
